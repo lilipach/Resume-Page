@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import HeaderDisplay from "./Components/HeaderDisplay";
+import TabDisplay from "./Components/TabDisplay";
+import ContactDisplay from "./Components/ContactDisplay";
+import userImage from "./Images/profilePic.png";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component{
+  render() {
+      return (
+          <div className="App">
+              <div className="background"/>
+              <div className="content">
+                  <HeaderDisplay image = {userImage}
+                                 titleName = {"Liliana Pacheco"}
+                                 subTitle = {"Graduate Student"}
+                  />
+                  <TabDisplay/>
+                  <ContactDisplay/>
+              </div>
+          </div>
+      );
+  }
 }
-
-export default App;
