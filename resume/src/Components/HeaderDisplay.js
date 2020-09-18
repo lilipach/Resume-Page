@@ -1,6 +1,6 @@
 import {Image} from "semantic-ui-react";
 import React from "react";
-import userImage from "../Images/profilePic.png";
+import userImage from "../Constants/profilePic.png";
 import "../App.css"
 
 const CircularImage = (image) => (
