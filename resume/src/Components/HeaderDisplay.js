@@ -27,7 +27,7 @@ export default class HeaderDisplay extends React.Component{
 
     render() {
        return(
-           <div className='heading'>
+           <div>
                <h1 className='tittleName'> {this.state.titleName} </h1>
                <h2 className= 'subTittle'>  {this.state.subTitle} </h2>
                {CircularImage(this.props.image)}
@@ -35,5 +35,3 @@ export default class HeaderDisplay extends React.Component{
        )
     }
 }
-
-
