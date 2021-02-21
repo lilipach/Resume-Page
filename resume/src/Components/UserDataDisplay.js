@@ -16,17 +16,6 @@ const CircularImage = (image, ref) => (
 )
 
 export default class UserDataDisplay extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        userInfoArr: this.props.userInfoArr,
-        tabTitle: "",
-        tabText: "",
-    };
-    console.log("This is Tab data")
-    console.log(this.state)
-  }
-
   render() {
       return (
         <div className="tabs">
@@ -89,7 +78,7 @@ export default class UserDataDisplay extends React.Component {
                 <p>3600 Butch Cassidy Dr. Reno, NV 89511 – (775) 851-5630</p>
                 <ul>
                   <li>
-                    Completed High School advanced and Honers Diploma
+                    Completed High School advanced and Honors Diploma
                   </li>
                   <li>
                     Cummulative GPA: 4.5 
@@ -101,7 +90,33 @@ export default class UserDataDisplay extends React.Component {
               <p>hello this is me</p>
             </Tab>
             <Tab eventKey="Experience" title="Experience">
-              <p></p>
+              <div className="entry">
+                <h3>IT Support Technician ll</h3>
+                <h5>Amazon Warehouse (RNO4) | September 2020 - Currently Employed</h5>
+                <p>8000 N Virginia St, Reno, NV 89506 - (775) 954-9500</p>
+                <ul>
+                  <li>
+                    Minor: Mathematics and Cyber Security
+                  </li>
+                  <li>
+                    GPA: 3.45
+                  </li>
+                </ul>
+              </div>
+
+              <div className="entry">
+                <h3>Fullfilment Associate</h3>
+                <h5>Amazon Warehouse (RNO4) | June 2018 - September 2020</h5>
+                <p>1664 N Virginia St, Reno, NV 89557 – (775) 784-1110</p>
+                <ul>
+                  <li>
+                    Minor: Mathematics and Cyber Security
+                  </li>
+                  <li>
+                    GPA: 3.45
+                  </li>
+                </ul>
+              </div>
             </Tab>
             <Tab eventKey="Projects" title="Projects">
               <p>hello this is me</p>

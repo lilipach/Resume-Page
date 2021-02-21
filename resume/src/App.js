@@ -8,35 +8,7 @@ import {NavBar} from "./Components/NavBar";
 
 export default class App extends React.Component{
 
-  render() {
-     var userInfo =[
-                    {
-                        title: "About Me",
-                        text: "Hi I'm Liliana Pacheco. Something interesting to say hereHi I'm Liliana Pacheco. Something interesting to say hereHi I'm Liliana Pacheco. Something interesting to say hereHi I'm Liliana Pacheco. Something interesting to say hereHi I'm Liliana Pacheco. Something interesting to say hereHi I'm Liliana Pacheco. Something interesting to say hereHi I'm Liliana Pacheco. Something interesting to say hereHi I'm Liliana Pacheco. Something interesting to say hereHi I'm Liliana Pacheco. Something interesting to say hereHi I'm Liliana Pacheco. Something interesting to say hereHi I'm Liliana Pacheco. Something interesting to say hereHi I'm Liliana Pacheco. Something interesting to say hereHi I'm Liliana Pacheco. Something interesting to say here"
-                    },
-                    
-                    {
-                        title: "Experience",
-                        text: "I don't actually know anything but please hire me"
-                    },
-                    
-                    {
-                        title: "Education",
-                        text: "Science in Potato engineering"
-                    },
-                    
-                    {
-                        title: "Skills",
-                        text: "perfect breathing most of the time..."
-                    },
-
-                    {
-                        title: "Projects",
-                        text: "I'm too embarassed to show any"
-                    },
-                  ];
-
-
+    render() {
         return (
             <div className="App">
                 <div className="background"></div>
@@ -49,7 +21,7 @@ export default class App extends React.Component{
                             subTitle = {"Software Engineer"}
                         />
 
-                        <UserDataDisplay userInfoArr = {userInfo}/>
+                        <UserDataDisplay/>
 
                         <div className="contactContainer">
                             <ContactDisplay/>
@@ -58,5 +30,5 @@ export default class App extends React.Component{
                 </div>
             </div>     
       );
-  }
+    }
 }
