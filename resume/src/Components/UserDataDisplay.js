@@ -87,7 +87,28 @@ export default class UserDataDisplay extends React.Component {
               </div>
             </Tab>
             <Tab eventKey="Skills" title="Skills">
-              <p>hello this is me</p>
+              <div className="entry">
+                <h3>Programming Languages/Related Tools</h3>
+                <ul>
+                  <li>C</li>
+                  <li>C++</li>
+                  <li>Java</li>
+                  <li>React</li>
+                  <li>python</li>
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>SpringBoot</li>
+                  <li>Gradle</li>
+                  <li>Git</li>
+                </ul>
+              </div>
+              <div className="entry">
+                  <h3>Operating Systems</h3>
+                  <ul>
+                    <li></li>
+                  </ul>
+              </div>
             </Tab>
             <Tab eventKey="Experience" title="Experience">
               <div className="entry">
@@ -96,10 +117,13 @@ export default class UserDataDisplay extends React.Component {
                 <p>8000 N Virginia St, Reno, NV 89506 - (775) 954-9500</p>
                 <ul>
                   <li>
-                    Minor: Mathematics and Cyber Security
+                    Experience in Hardware management, maintenance and repair (Printers, PCs, Scanners, Thinclients)
                   </li>
                   <li>
-                    GPA: 3.45
+                    Delivered troubleshooting solutions to users and departments experiencing difficulties with software, hardware, and network connectivity
+                  </li>
+                  <li>
+                    Support senior technicians/Engineers with complex tasks and time-sensitive achievements to meet client expectations and user needs
                   </li>
                 </ul>
               </div>
@@ -110,10 +134,13 @@ export default class UserDataDisplay extends React.Component {
                 <p>1664 N Virginia St, Reno, NV 89557 – (775) 784-1110</p>
                 <ul>
                   <li>
-                    Minor: Mathematics and Cyber Security
+                    Ability to coordinate and work in teams to accomplish necessary results
                   </li>
                   <li>
-                    GPA: 3.45
+                    Respectful to procedures, rules and regulations to ensure quality service
+                  </li>
+                  <li>
+                    Comfortable in fast pace environments and trained in multiple processes (Pick, Pack, Rebin, Slam, and Dock)
                   </li>
                 </ul>
               </div>
