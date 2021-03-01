@@ -2,7 +2,7 @@
 React app for my resume webpage
 
 To Run:
- * npm install
+ * $npm install
  * $npm start
 
 9/17/2020
