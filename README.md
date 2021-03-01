@@ -2,8 +2,8 @@
 React app for my resume webpage
 
 To Run:
-$npm install
-$npm start
+> npm install
+> npm start
 
 9/17/2020
 - current features include the following:
