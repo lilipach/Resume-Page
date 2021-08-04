@@ -13,23 +13,22 @@ function sendEmail(e) {
 }
 
 function Example() {
-    // `value` will be the parsed phone number in E.164 format.
-    // Example: "+12133734253".
-    const [value, setValue] = useState()
-    // If `country` property is not passed
-    // then "International" format is used.
-    // Otherwise, "National" format is used.
-    console.log("const: " + value + setValue);
-    return (
-      <PhoneInput
-        country="US"
-        value={value}
-        onChange={setValue} />
-    )
+  // `value` will be the parsed phone number in E.164 format.
+  // Example: "+12133734253".
+  const [value, setValue] = useState()
+  return (
+    <PhoneInput
+      placeholder="Enter phone number"
+      value={value}
+      onChange={setValue}/>
+  )
 }
 
 export default class ContactDisplay extends React.Component {
+
+
     render() {
+        const val = 0;
         return(
             <form className="contact-form" onSubmit={sendEmail}>
             <input type="hidden" name="contact_number" />
@@ -40,7 +39,6 @@ export default class ContactDisplay extends React.Component {
             <label>Message</label>
             <textarea name="html_message" />
             <input type="submit" value="Send" />
-            {Example}
             </form>
             
         )

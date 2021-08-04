@@ -25,16 +25,16 @@ export default class UserDataDisplay extends React.Component {
                   <div className="leftPar">
                     <h3>Personally</h3>
                     <p>
-                      Hello! If you're reading this then it means your likely considering hiring me 
+                      Hello! If you're reading this then your likely considering hiring me 
                       and want to know a little more about me. Well look no further you have arrived 
-                      at the "About Me" section. If I had to say anything about my self it's that I 
-                      am an awesome team member, and no I'm not just saying that because companies value
-                      team players. I am genuinely a pleasant person to be around and a hard worker. 
+                      at the "About Me" section. If I had to say anything about my self it's that I'm 
+                      a pretty awesome team member, and no I'm not just saying that because companies value
+                      "team players". I'm genuinely a pleasant person to be around and a hard worker. 
                       Don't believe me fine. You'll just have to hire me and see. Apart from my great 
-                      personality, I am also pretty funny. So if for anythin just hire me based on that.
-                      It'll boost office moral you know? Now on a more serious note, I think I should tell
+                      personality, I'm also pretty funny. So if for anything just hire me based on that.
+                      It'll boost office moral. Probably. Now on a more serious note, I think I should tell
                       you before you hire me. I am pretty awesome and may unintentionally steal your  
-                      thunder. You have been warned. (ps. I am just kidding I am pretty shy in real life)
+                      thunder. You have been warned.
                     </p>
                   </div>
                   <div className="rightPar">
@@ -44,8 +44,8 @@ export default class UserDataDisplay extends React.Component {
                       machine learning. I'm curretly employeed in an amazon fulfillment facility where I help associates
                       on a daily bases with all kinds of problems. This includes troubleshooting printers, laptops,
                       desktops, thinclients, scanners and a variety of other equipment. I have been  with amazon 
-                      for about three years now. Attempting to clime the corporate latter. I would like to eventually become
-                      one of Amazon's software Engineers and help them evolve what's already an awesome company. I'm building my
+                      for about three years now. Attempting to clime the corporate ladder. I would like to eventually become
+                      one of Amazon's software Engineers and help them develop what's already an awesome company. I'm building my
                       self from the ground up and getting all the neccessary skills to become not a good Engineer but a 
                       great one.   
                     </p>
@@ -60,7 +60,7 @@ export default class UserDataDisplay extends React.Component {
             <Tab eventKey="Education" title="Education">
               <div className="entry">
                 <h3>University of Nevada Reno</h3>
-                <h5>Bachelor's Degreen In Computer Science and Engineering | Spring 2020</h5>
+                <h5>Bachelor's Degree In Computer Science and Engineering | Spring 2020</h5>
                 <p>1664 N Virginia St, Reno, NV 89557 – (775) 784-1110</p>
                 <ul>
                   <li>
@@ -88,7 +88,7 @@ export default class UserDataDisplay extends React.Component {
             </Tab>
             <Tab eventKey="Skills" title="Skills">
               <div className="entry">
-                <h3>Programming Languages/Related Tools</h3>
+                <h3>Technical SKills</h3>
                 <ul>
                   <li>C</li>
                   <li>C++</li>
@@ -98,26 +98,50 @@ export default class UserDataDisplay extends React.Component {
                   <li>JavaScript</li>
                   <li>HTML</li>
                   <li>CSS</li>
-                  <li>SpringBoot</li>
+                  <li>Django</li>
                   <li>Gradle</li>
                   <li>Git</li>
                 </ul>
               </div>
               <div className="entry">
-                  <h3>Operating Systems</h3>
+                  <h3>Soft Skills</h3>
                   <ul>
-                    <li></li>
+                    <li>Excellect Verbal and Written Communication Skills</li>
+                    <li>Strong leadership skills</li>
+                    <li>Outstanding problem-solving (like any good engineer should)</li>
+                    <li>Responsible individual with good time management and organization</li>
+                    <li>Perfectionist with great attention to detail</li>
                   </ul>
               </div>
             </Tab>
             <Tab eventKey="Experience" title="Experience">
               <div className="entry">
                 <h3>IT Support Technician ll</h3>
-                <h5>Amazon Warehouse (RNO4) | September 2020 - Currently Employed</h5>
+                <h5>Amazon Warehouse (RNO4) | May 2021 - Currently Employed</h5>
                 <p>8000 N Virginia St, Reno, NV 89506 - (775) 954-9500</p>
                 <ul>
                   <li>
-                    Experience in Hardware management, maintenance and repair (Printers, PCs, Scanners, Thinclients)
+                    Experience in Hardware management, maintenance and repair (Printers, PCs, Scanners, Thinclients, Switches, Routers, ect.)
+                  </li>
+                  <li>
+                    Deliver troubleshooting solutions to users and departments experiencing difficulties with software, hardware, and network connectivity
+                  </li>
+                  <li>
+                    Support senior technicians/Engineers with complex tasks and time-sensitive achievements to meet client expectations and user needs
+                  </li>
+                  <li>
+                    Project management, documentation, and excution to maintain or improve business functions  
+                  </li>
+                </ul>
+              </div>
+
+              <div className="entry">
+                <h3>IT Equipment Coordinator</h3>
+                <h5>Amazon Warehouse (RNO4) | September 2020 - May 2021</h5>
+                <p>8000 N Virginia St, Reno, NV 89506 - (775) 954-9500</p>
+                <ul>
+                  <li>
+                    Experience in inventory management, maintenance and repair (Printers, PCs, Scanners, Thinclients)
                   </li>
                   <li>
                     Delivered troubleshooting solutions to users and departments experiencing difficulties with software, hardware, and network connectivity
