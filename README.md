@@ -20,5 +20,5 @@ To Run:
   * Email Messaging style
   * Contact ID section
 
-Project Screen Shot
+# Project Screen Shot
 ![Project Screen Shot](https://github.com/lilipach/Resume-Page/blob/master/resume/project_screenshot_1.png)
