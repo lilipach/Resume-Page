@@ -1,5 +1,5 @@
 # Resume-Page
-React app for my resume webpage
+React app for my resume webpage.
 
 To Run:
  * $npm install
